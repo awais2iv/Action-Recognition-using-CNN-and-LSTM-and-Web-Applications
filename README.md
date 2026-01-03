@@ -16,6 +16,10 @@ A complete **Human Action Recognition** system using **CNN + LSTM** architecture
 ![Prediction Results](screenshots/prediction-results.png)
 *Detailed prediction results with confidence scores and visualizations*
 
+### Analysis Results
+![Analysis Results](screenshots/analysis-results.png)
+*Complete analysis with top predictions and confidence gauge*
+
 ## ✨ Features
 
 - 🧠 **Advanced AI Model**: CNN-LSTM hybrid architecture with MobileNetV2 backbone
