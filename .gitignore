@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Dataset directory (external path - do not upload)
+/Users/muhammadawais/CS-7B/Deep Learning Th/Assignment/Human Action Recognition/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+*.pb
+saved_model/
+checkpoints/
+# Allow model files in training/models/
+!training/models/*.h5
+!training/models/*.hdf5
+!training/models/*.pb
+!training/models/*.pkl
+
+# Training outputs
+*.png
+*.txt
+*.log
+training_logs/
+
+# Dataset (large files)
+# train/
+# test/
+# *.jpg
+# *.jpeg
+# *.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package files and dependencies
+*.tar.gz
+*.whl
+*.zip
+*.rar
+*.7z
+node_modules/
+package-lock.json
+yarn.lock
+Pipfile.lock
+
+# Conda environments
+conda-env/
+miniconda/
+anaconda/
+envs/

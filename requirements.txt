@@ -1,0 +1,9 @@
+# HAR Action Recognition - Root Requirements
+# This file points to the backend requirements for convenience
+# Install with: pip install -r requirements.txt
+
+# For the complete system, install backend requirements:
+-r backend/requirements.txt
+
+# For training, also install:
+# -r training/requirements.txt
