@@ -3,11 +3,18 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://www.tensorflow.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/License-Educational-red.svg)](LICENSE)
 
 A complete **Human Action Recognition** system using **CNN + LSTM** architecture with REST API and modern web interface. Built for deep learning course assignment.
 
-![Demo Screenshot](https://via.placeholder.com/800x400/3b82f6/ffffff?text=HAR+Dashboard+Demo)
+## 📸 Screenshots
+
+### Dashboard Interface
+![HAR Dashboard](screenshots/dashboard.png)
+*Professional AI dashboard with drag-and-drop upload and real-time analysis*
+
+### Prediction Results
+![Prediction Results](screenshots/prediction-results.png)
+*Detailed prediction results with confidence scores and visualizations*
 
 ## ✨ Features
 
@@ -22,14 +29,16 @@ A complete **Human Action Recognition** system using **CNN + LSTM** architecture
 ## 📋 Table of Contents
 
 - [Project Overview](#-project-overview)
+- [Screenshots](#-screenshots)
+- [Features](#-features)
 - [Dataset](#-dataset)
 - [Architecture](#-architecture)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [API Documentation](#-api-documentation)
 - [Model Performance](#-model-performance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [File Descriptions](#-file-descriptions)
+- [Future Improvements](#-future-improvements)
 
 ## � Quick Start
 
@@ -544,52 +553,6 @@ app.add_middleware(
 - ✅ **Documentation:** Auto-generated docs
 - ✅ **Easy deployment:** Production-ready
 
-## 🎓 Interview Preparation Notes
-
-### Technical Questions You Might Face
-
-**Q1: Why CNN + LSTM for image classification?**
-
-**Answer:**
-- CNN extracts spatial features (edges, shapes, objects)
-- LSTM adds temporal modeling capability
-- Hybrid architecture is flexible for both images and videos
-- Better generalization than pure CNN for action recognition
-
-**Q2: What is transfer learning and why use it?**
-
-**Answer:**
-- Using pretrained model (ImageNet) as starting point
-- Saves training time and resources
-- Leverages learned features (edges, textures, objects)
-- Improves accuracy, especially with limited data
-
-**Q3: How do you prevent overfitting?**
-
-**Answer:**
-1. **Dropout:** Randomly drops neurons during training
-2. **Data Augmentation:** Increases dataset diversity
-3. **Early Stopping:** Stops when validation loss increases
-4. **Batch Normalization:** Normalizes layer inputs
-5. **L2 Regularization:** Penalizes large weights
-
-**Q4: What is the TimeDistributed layer?**
-
-**Answer:**
-- Applies the same CNN to each frame in a sequence
-- Enables processing of video frames or image sequences
-- Shares weights across all time steps
-- Essential for combining CNN with LSTM
-
-**Q5: How would you deploy this in production?**
-
-**Answer:**
-1. **Containerization:** Use Docker
-2. **Cloud deployment:** AWS Lambda, Google Cloud Run
-3. **Optimization:** TensorFlow Lite for mobile
-4. **Monitoring:** Log predictions, track performance
-5. **Scaling:** Load balancing, model caching
-
 ## 📁 File Descriptions
 
 ### Training Module
@@ -654,58 +617,13 @@ USE_PRETRAINED = True
    - Class balancing techniques
    - Semi-supervised learning
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. **Commit** your changes: `git commit -m 'Add amazing feature'`
-4. **Push** to the branch: `git push origin feature/amazing-feature`
-5. **Open** a Pull Request
-
-### Development Guidelines
-
-- Follow PEP 8 style guidelines
-- Add docstrings to functions
-- Update tests for new features
-- Ensure all tests pass
-- Update documentation
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**Educational Purpose:** This project was developed as part of the Deep Learning Theory course (CS-7B) assignment.
-
-## 👥 Authors
-
-- **Muhammad Awais** - *221453* - Initial development, model architecture, API backend
-- **Rehan Ahmed** - *221426* - Frontend development, UI/UX design, testing
-
-## 🙏 Acknowledgments
-
-- **Dataset:** Human Action Recognition dataset
-- **TensorFlow Team** for the excellent deep learning framework
-- **FastAPI** for the modern API framework
-- **Chart.js** for beautiful data visualizations
-
-## 📞 Support
-
-If you have questions or need help:
-
-1. Check the [Issues](https://github.com/yourusername/HAR-Action-Recognition/issues) page
-2. Review the [API Documentation](http://localhost:8000/docs)
-3. Check the troubleshooting section above
-
 ---
 
 <div align="center">
 
 **Built with ❤️ using TensorFlow, FastAPI, and Vanilla JavaScript**
 
-⭐ **Star this repo** if you found it helpful!
-
-[⬆️ Back to Top](#-human-action-recognition-har-system)
+**Authors:** Muhammad Awais (221453), Rehan Ahmed (221426)  
+**Course:** CS-7B Deep Learning Theory
 
 </div>
