@@ -53,6 +53,8 @@ checkpoints/
 *.txt
 *.log
 training_logs/
+# Allow screenshots
+!screenshots/*.png
 
 # Dataset (large files)
 # train/
